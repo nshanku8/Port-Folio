@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import { Terminal, ChefHat, ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
 import { useInView } from 'react-intersection-observer'
 
 const Hero = () => {
@@ -33,13 +33,9 @@ const Hero = () => {
   const scrollToAbout = () => {
     document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
   }
-  const downloadCV = () => {
-    const link = document.createElement('a');
-    link.href = '/Neela_Shashank_CV.pdf'; 
-    link.download = 'Neela_Shashank_CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const ViewResume = () => {
+    window.open('https://drive.google.com/file/d/1LiOP8p-lgpMk80Z1csg2QdztLk-866_6/view?usp=sharing', '_blank');
+    
   }
 
   return (
@@ -91,9 +87,9 @@ const Hero = () => {
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={downloadCV}
+              onClick={ViewResume}
             >
-              Download CV
+              View Resume
 
             </motion.button>
           </motion.div>
@@ -102,12 +98,16 @@ const Hero = () => {
             {[
               { icon: Github, href: "https://github.com/nshanku8" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/nshanku2841/" },
-              { icon: Mail, href: "mailto:nshanku8@gmaill.com" }
+              { icon: Mail, href: "mailto:nshanku8@gmaill.com" },
+              { icon: ChefHat, href: "https://www.codechef.com/users/nshanku8" },
+              { icon: Terminal, href: "https://www.hackerrank.com/profile/nshanku8" }
+              
             ].map((social, index) => (
               <motion.a
                 key={index}
                 href={social.href}
                 className="social-link"
+                target="_blank"
                 whileHover={{ y: -3, scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
