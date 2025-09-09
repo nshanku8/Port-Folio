@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Code, Palette, Zap, Users } from 'lucide-react'
+import { Lightbulb, Puzzle, Folder, Users } from 'lucide-react'
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -32,24 +32,24 @@ const About = () => {
 
   const features = [
     {
-      icon: Code,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable code with modern best practices"
+      icon: Lightbulb,
+      title: "Learning & Growth",
+      description: "Constantly exploring new tools, frameworks, and ideas to stay ahead in tech"
     },
     {
-      icon: Palette,
-      title: "Creative Design",
-      description: "Crafting beautiful interfaces with attention to detail"
+      icon: Puzzle,
+      title: "Problem Solving",
+      description: "Enjoy breaking down complex problems into simple, working solutions"
     },
     {
-      icon: Zap,
-      title: "Performance",
-      description: "Building fast, optimized applications for the best user experience"
+      icon: Folder,
+      title: "Projects & Experiments",
+      description: "Building projects that turn classroom concepts into real-world applications"
     },
     {
       icon: Users,
-      title: "Collaboration",
-      description: "Working effectively with teams to deliver exceptional results"
+      title: "Knowledge Sharing",
+      description: "Conducting sessions and workshops to help peers learn automation"
     }
   ]
 
@@ -89,9 +89,9 @@ const About = () => {
 
               <div className="stats">
                 {[
-                  { number: "50+", label: "Projects Completed" },
-                  { number: "5+", label: "Years Experience" },
-                  { number: "20+", label: "Happy Clients" }
+                  { number: "22+", label: "Workshops Delivered" },
+                  { number: "3+", label: "Hackathons Participated" },
+                  { number: "5+", label: "Projects Completed" }
                 ].map((stat, index) => (
                   <motion.div
                     key={index}
