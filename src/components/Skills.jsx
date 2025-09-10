@@ -123,6 +123,7 @@ const Skills = () => {
                 "Amazon Web Services - Cloud Practitioner Certified",
                 "Oracle Cloud Infrastructure - Certified Architect Associate",
                 "Automation Anywhere - Essential Automation Professional Certified",
+                "Cambridge - LinguaSkill Examination"
               ].map((cert, index) => (
                 <motion.div
                   key={index}
