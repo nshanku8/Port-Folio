@@ -24,11 +24,11 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Minimal Calc",
       category: "mobile",
-      description: "A collaborative task management application with real-time updates and team collaboration features.",
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React Native", "Firebase", "Redux"],
+      description: "A simple calculator built only using HTML and CSS",
+      image: "/calc.jpg",
+      technologies: ["HTML", "CSS"],
       liveUrl: "#",
       githubUrl: "#"
     },
