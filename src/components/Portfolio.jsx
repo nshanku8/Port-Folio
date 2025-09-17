@@ -14,10 +14,10 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Tic Tac Toe - 2D Board Game",
       category: "web",
       description: "A modern e-commerce platform built with React and Node.js, featuring payment integration and admin dashboard.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/ttt.jpg",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       liveUrl: "#",
       githubUrl: "#"
