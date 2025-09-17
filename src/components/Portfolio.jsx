@@ -16,9 +16,9 @@ const Portfolio = () => {
       id: 1,
       title: "Tic Tac Toe - 2D Board Game",
       category: "web",
-      description: "A modern e-commerce platform built with React and Node.js, featuring payment integration and admin dashboard.",
+      description: "A 2D Tic-Tac-Toe game in Python applying Object-Oriented Programming concepts with interactive gameplay and automated win detection.",
       image: "/ttt.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["Python", "OOPS", "2D Lists", "Control Flow"],
       liveUrl: "#",
       githubUrl: "#"
     },
@@ -34,11 +34,11 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Restaurant Website",
-      category: "design",
-      description: "A beautiful restaurant website with online ordering system and table reservation functionality.",
-      image: "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "GSAP", "Tailwind CSS"],
+      title: "Online Food Ordering System",
+      category: "web",
+      description: "An Online Food Ordering System using Django, HTML/CSS, and PostgreSQL for backend data management.",
+      image: "/fos.jpg",
+      technologies: ["Django", "Postgre SQL", "HTML/CSS", "Python"],
       liveUrl: "#",
       githubUrl: "#"
     },
