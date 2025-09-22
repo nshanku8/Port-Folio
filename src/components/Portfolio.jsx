@@ -44,31 +44,31 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Finance Dashboard",
+      title: "Exploratory Data Analysis",
       category: "web",
-      description: "An intuitive finance dashboard with data visualization and portfolio tracking capabilities.",
-      image: "https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "D3.js", "Express", "PostgreSQL"],
+      description: "Performed Exploratory Data Analysis on housing prices to uncover key factors influencing property values and market trends.",
+      image: "/eda.jpg",
+      technologies: ["Python", "Pandas", "Matplotlib"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 5,
-      title: "Brand Identity",
+      title: "Web Scraping and Geospatial Data Exploration",
       category: "design",
-      description: "Complete brand identity design for a tech startup including logo, guidelines, and marketing materials.",
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Adobe Illustrator", "Figma", "Adobe Photoshop"],
+      description: "Extracted location data from HTML pages using BeautifulSoup and processed it in GeoJSON format to analyze map-based information.",
+      image: "/bs4.jpg",
+      technologies: ["BeautifulSoup", "Python", "GeoJSON"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 6,
-      title: "Fitness Tracker",
+      title: "Crave Shoots",
       category: "mobile",
-      description: "A comprehensive fitness tracking app with workout plans and progress monitoring.",
-      image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React Native", "Node.js", "MongoDB"],
+      description: "A React based webpage for a photographic startup.",
+      image: "/csw.jpg",
+      technologies: ["React Native", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
       githubUrl: "#"
     }
